@@ -100,8 +100,11 @@ docker logs -f my_rag
 ```
 
 ### 3. 部署到云服务器
-项目包含完整的 Docker 生产部署指南，涵盖服务器配置、安全组设置、Systemd 服务化等步骤。详情<https://blog.csdn.net/m0_71469100/article/details/156194453?fromshare=blogdetail&sharetype=blogdetail&sharerId=156194453&sharerefer=PC&sharesource=m0_71469100&sharefrom=from_link>。
+项目包含完整的 Docker 生产部署指南，涵盖服务器配置、安全组设置、Systemd 服务化等步骤。
+详情<https://blog.csdn.net/m0_71469100/article/details/156194453?fromshare=blogdetail&sharetype=blogdetail&sharerId=156194453&sharerefer=PC&sharesource=m0_71469100&sharefrom=from_link>。
+
 可能出现依赖版本问题的解决办法
+
 先让pip在一个干净环境中自动选择下载兼容版本，再把这个结果记录下来
 ```python
 # 这个文件只写包名和最宽泛的版本约束，让pip有最大选择空间
