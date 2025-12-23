@@ -1,0 +1,34 @@
+# 忽略Python虚拟环境和缓存
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 忽略IDE和编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略版本控制
+.git/
+.gitignore
+
+# 忽略日志和临时文件
+*.log
+*.sql
+*.sqlite
+*.pid
+
+# 忽略你的个人笔记和大文件
+*.md
+*.tar
+*.tar.gz
+
+# 忽略可能的大型数据/模型文件（按需取消注释）
+# chroma_db/
+# *.pdf
+# *.pkl
+# model/
