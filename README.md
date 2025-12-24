@@ -156,6 +156,7 @@ head -15 requirements_lock.txt
 - `PERSIST_DIRECTORY`: ChromaDB 向量数据库持久化目录。
 - `EMBED_MODEL_NAME`: 嵌入模型名称。
 - `MM_API_KEY`, `MM_GROUP_ID`: MiniMax API 密钥 (从 `.env` 文件读取)。
+- 注:笔者已用.gitignore文件忽略知识库文件,读者可使用自己本地文件也可使用项目中的水果测试文本
 
 ## 遇到的核心问题与解决方案
 
