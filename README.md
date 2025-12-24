@@ -25,7 +25,7 @@
 ##  系统架构
 
 整个系统的工作流程遵循典型的RAG范式，分为“索引”和“查询”两个主要阶段：
-<img width="239" height="432" alt="image" src="https://github.com/user-attachments/assets/5f05bbb9-2366-4644-8abb-9d07a361c430" />
+<img width="246" height="453" alt="image" src="https://github.com/user-attachments/assets/41fea891-478b-469e-9de3-fff255b64e0c" />
 
 
 **流程详解**：
@@ -41,7 +41,7 @@
     *   **智能生成**：通过调用MiniMax API，让大语言模型严格基于我提供的“上下文”进行作答，生成最终答案。如果知识库中没有相关信息，模型会提示。
 ##  功能特性
 
-1.  **多格式文档支持**：原生支持 `.md` 文件，通过 LangChain 可轻松扩展支持 `.txt`, `.pdf`, `.docx` 等格式。
+1.  **多格式文档支持**：原生支持 `.md`,`.txt` 文件，通过 LangChain 可轻松扩展支持 `.pdf`, `.docx` 等格式。
 2.  **智能文本处理**：
     - 使用 `RecursiveCharacterTextSplitter` 按段落和标题进行智能分块，保留上下文语义。
     - 内置 `clean_markdown_content` 函数，专门处理 Obsidian 等笔记软件的内部链接和图片标记。
@@ -100,7 +100,7 @@ docker logs -f my_rag
 ```
 
 ### 3. 部署到云服务器
-项目包含完整的 Docker 生产部署，包括服务器配置、安全组设置、等步骤。详情<https://blog.csdn.net/m0_71469100/article/details/156194453?fromshare=blogdetail&sharetype=blogdetail&sharerId=156194453&sharerefer=PC&sharesource=m0_71469100&sharefrom=from_link>。
+项目包含完整的 Docker 生产部署，包括服务器配置、安全组设置、等步骤。详情见博客[杨东升02.com](https://blog.csdn.net/m0_71469100)。
 可能出现依赖版本问题的解决办法
 先让pip在一个干净环境中自动选择下载兼容版本，再把这个结果记录下来
 ```python
@@ -193,4 +193,4 @@ head -15 requirements_lock.txt
 ---
 **项目源码**：[[yangdongsheng02/rag-qa-system: 个人知识库智能问答系统](https://github.com/yangdongsheng02/rag-qa-system)]
 **联系方式** 邮箱1151717137@qq.com
-			
+**博客**: [杨东升02.com](https://blog.csdn.net/m0_71469100)
