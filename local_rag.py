@@ -469,7 +469,7 @@ def main():
             if len(md_files) > 8:
                 print(f"  ... 还有 {len(md_files) - 8} 个文件")
         else:
-            print("⚠️ 知识库目录中没有Markdown文件")
+            print(" 知识库目录中没有Markdown文件")
             print(f"请将知识库文件复制到 {Config.KNOWLEDGE_BASE_PATH} 目录中")
     else:
         print(f"知识库目录不存在")
