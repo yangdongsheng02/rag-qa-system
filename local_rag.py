@@ -140,7 +140,7 @@ def create_retrieve(vectordb):
     )
     return retriever
 
-#五,MiniMax LLM封装类
+#六,MiniMax LLM封装类
 class MiniMaxLLM:
     """封装MiniMax API调用"""
     @staticmethod   #静态方法,不用创建类实例即可调用
