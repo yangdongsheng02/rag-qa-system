@@ -238,6 +238,7 @@ head -15 requirements_lock.txt
 - 注:笔者已用.gitignore文件忽略知识库文件,读者可使用自己本地文件
 
 ### 界面概览
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/9aaef09a-97e5-47b3-bafc-4049705627c9" />
 
 
 ### 演示案例
